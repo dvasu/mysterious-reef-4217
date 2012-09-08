@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.171" errors="0" skipped="0" tests="9" name="com.appdunes.shopping.domain.ItemIntegrationTest">
+<testsuite failures="0" time="0.172" errors="0" skipped="0" tests="9" name="com.appdunes.shopping.domain.ItemIntegrationTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_34\jre\bin"/>
@@ -60,12 +60,12 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase time="0" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testMarkerMethod"/>
-  <testcase time="0.046" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testFlush"/>
-  <testcase time="0.016" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testMergeUpdate"/>
-  <testcase time="0.016" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testPersist"/>
-  <testcase time="0.015" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testRemove"/>
+  <testcase time="0.031" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testFlush"/>
+  <testcase time="0.032" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testMergeUpdate"/>
+  <testcase time="0.015" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testPersist"/>
+  <testcase time="0.016" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testRemove"/>
   <testcase time="0.031" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testCountItems"/>
   <testcase time="0.016" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testFindItem"/>
-  <testcase time="0.016" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testFindAllItems"/>
-  <testcase time="0.015" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testFindItemEntries"/>
+  <testcase time="0.015" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testFindAllItems"/>
+  <testcase time="0.016" classname="com.appdunes.shopping.domain.ItemIntegrationTest" name="testFindItemEntries"/>
 </testsuite>

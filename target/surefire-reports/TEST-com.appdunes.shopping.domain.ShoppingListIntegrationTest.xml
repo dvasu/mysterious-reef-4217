@@ -61,11 +61,11 @@
   </properties>
   <testcase time="0" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testMarkerMethod"/>
   <testcase time="0.047" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testFlush"/>
-  <testcase time="0.015" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testMergeUpdate"/>
-  <testcase time="0.031" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testPersist"/>
-  <testcase time="0.032" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testRemove"/>
+  <testcase time="0.016" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testMergeUpdate"/>
+  <testcase time="0.047" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testPersist"/>
+  <testcase time="0.031" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testRemove"/>
   <testcase time="0.031" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testCountShoppingLists"/>
-  <testcase time="0.031" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testFindShoppingList"/>
-  <testcase time="0.016" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testFindAllShoppingLists"/>
-  <testcase time="0.031" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testFindShoppingListEntries"/>
+  <testcase time="0.016" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testFindShoppingList"/>
+  <testcase time="0.031" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testFindAllShoppingLists"/>
+  <testcase time="0.015" classname="com.appdunes.shopping.domain.ShoppingListIntegrationTest" name="testFindShoppingListEntries"/>
 </testsuite>
