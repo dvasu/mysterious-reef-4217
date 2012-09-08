@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_appdunes_shopping_domain_Item" object="${item}" path="/items" z="+Smsl615rsUQ4UpTXeeIDxFrEIA=">
+        <field:display field="name" id="s_com_appdunes_shopping_domain_Item_name" object="${item}" z="37faAebf016GdY5MTnxHsFW5rxI="/>
+        <field:display field="category" id="s_com_appdunes_shopping_domain_Item_category" object="${item}" z="DaggJZ6z/PjJFmMg0CL+ArA/Y7s="/>
+    </page:show>
+</div>

@@ -1,0 +1,53 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-07 09:39:37
+project --topLevelPackage com.appdunes.shopping
+persistence setup --database POSTGRES --provider HIBERNATE 
+database properties set --key database.url --value jdbc:postgresql://localhost:5432/shopping
+database properties set --key database.username --value postgres
+database properties set --key database.password --value krishna700026++
+database properties list
+entity jpa --class ~.domain.Category --testAutomatically
+field string --fieldName name --unique true --notNull true
+field string --fieldName description --notNull true
+entity jpa --class ~.domain.Item --testAutomatically 
+field string --fieldName name --unique true --notNull true
+field reference --fieldName category --type ~.domain.Category --cardinality MANY_TO_ONE 
+entity jpa --class ~.domain.ShoppingList --testAutomatically
+field string --fieldName name --unique true --notNull true
+field set --fieldName items --type ~.domain.Item --cardinality MANY_TO_MANY 
+json all
+web mvc json setup
+web mvc json all
+web mvc all --package ~.web
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-09-07 09:46:23
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-07 22:12:41
+project --topLevelPackage com.appdunes.shopping
+persistence setup --database POSTGRES --provider HIBERNATE 
+database properties set --key database.url --value jdbc:postgresql://localhost:5432/shopping
+database properties set --key database.username --value postgres
+database properties set --key database.password --value krishna700026++
+database properties list
+entity jpa --class ~.domain.Category --testAutomatically
+field string --fieldName name --unique true --notNull true
+field string --fieldName description --notNull true
+entity jpa --class ~.domain.Item --testAutomatically 
+field string --fieldName name --unique true --notNull true
+field reference --fieldName category --type ~.domain.Category --cardinality MANY_TO_ONE 
+entity jpa --class ~.domain.ShoppingList --testAutomatically
+field string --fieldName name --unique true --notNull true
+field set --fieldName items --type ~.domain.Item --cardinality MANY_TO_MANY 
+json all
+web mvc json setup
+web mvc json all
+web mvc all --package ~.web
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-09-07 22:13:00
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-07 22:13:00
+// script --file log.roo
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-09-07 22:13:00
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-07 23:17:03
+database properties list
+database properties set --key database.password --value  admin
+database properties list
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-09-07 23:24:33

@@ -1,0 +1,30 @@
+<aspectj>
+<aspects>
+<aspect name="com.appdunes.shopping.domain.ShoppingList_Roo_ToString"/>
+<aspect name="com.appdunes.shopping.domain.Category_Roo_ToString"/>
+<aspect name="com.appdunes.shopping.domain.Item_Roo_ToString"/>
+<aspect name="com.appdunes.shopping.domain.Category_Roo_JavaBean"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingList_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.appdunes.shopping.domain.Category_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.appdunes.shopping.domain.Item_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.CategoryController_Roo_Controller_Json"/>
+<aspect name="com.appdunes.shopping.CategoryController_Roo_Controller"/>
+<aspect name="com.appdunes.shopping.domain.Category_Roo_Jpa_Entity"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingList_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.domain.Category_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.ShoppingListController_Roo_Controller_Json"/>
+<aspect name="com.appdunes.shopping.ItemController_Roo_Controller_Json"/>
+<aspect name="com.appdunes.shopping.domain.Category_Roo_Json"/>
+<aspect name="com.appdunes.shopping.ItemController_Roo_Controller"/>
+<aspect name="com.appdunes.shopping.ShoppingListController_Roo_Controller"/>
+<aspect name="com.appdunes.shopping.domain.Item_Roo_JavaBean"/>
+<aspect name="com.appdunes.shopping.domain.Item_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.appdunes.shopping.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingList_Roo_Jpa_Entity"/>
+<aspect name="com.appdunes.shopping.domain.Item_Roo_Json"/>
+<aspect name="com.appdunes.shopping.domain.Item_Roo_Jpa_Entity"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingList_Roo_JavaBean"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingList_Roo_Json"/>
+</aspects>
+</aspectj>
+

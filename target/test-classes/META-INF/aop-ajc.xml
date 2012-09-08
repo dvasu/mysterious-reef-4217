@@ -1,0 +1,17 @@
+<aspectj>
+<aspects>
+<aspect name="com.appdunes.shopping.domain.ItemDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.appdunes.shopping.domain.ItemIntegrationTest_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.domain.CategoryIntegrationTest_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.domain.CategoryDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.appdunes.shopping.domain.CategoryDataOnDemand_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingListIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.appdunes.shopping.domain.ItemDataOnDemand_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingListIntegrationTest_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.domain.ItemIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingListDataOnDemand_Roo_Configurable"/>
+<aspect name="com.appdunes.shopping.domain.CategoryIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.appdunes.shopping.domain.ShoppingListDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+

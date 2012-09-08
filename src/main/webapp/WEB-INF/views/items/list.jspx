@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_appdunes_shopping_domain_Item" items="${items}" z="7e01cauUJ7qDUF+4ome74QA6Hn0=">
+        <table:table data="${items}" id="l_com_appdunes_shopping_domain_Item" path="/items" z="uaytHo3Ve3uqsZSjKplWhyz/rus=">
+            <table:column id="c_com_appdunes_shopping_domain_Item_name" property="name" z="kYITyErgPJbqffqvwM7oL0/zyFU="/>
+            <table:column id="c_com_appdunes_shopping_domain_Item_category" property="category" z="kTCl+Y4mSniyuCRYRPL5NgxNlyo="/>
+        </table:table>
+    </page:list>
+</div>
