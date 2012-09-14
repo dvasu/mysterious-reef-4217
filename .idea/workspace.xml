@@ -70,7 +70,7 @@
       <file leaf-file-name="CategoryController_Roo_Controller_Json.aj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/appdunes/shopping/CategoryController_Roo_Controller_Json.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="50" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.25386998">
+            <state line="41" column="50" selection-start="1971" selection-end="1971" vertical-scroll-proportion="0.25386998">
               <folding />
             </state>
           </provider>
@@ -483,7 +483,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -620,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appdunes/shopping/CategoryController_Roo_Controller_Json.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="50" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.25386998">
+        <state line="41" column="50" selection-start="1971" selection-end="1971" vertical-scroll-proportion="0.25386998">
           <folding />
         </state>
       </provider>
