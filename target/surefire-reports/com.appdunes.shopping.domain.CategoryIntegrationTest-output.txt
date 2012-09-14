@@ -1,4 +1,4 @@
-2012-09-08 11:29:44,977 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@7052c6b4]
+2012-09-13 21:24:45,547 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@3336a1a1]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -31,7 +31,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)
@@ -44,7 +44,7 @@ Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Inval
 	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
 	... 30 more
-2012-09-08 11:29:45,226 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@102f729e]
+2012-09-13 21:24:45,830 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@6602e323]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -77,7 +77,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)
@@ -90,7 +90,7 @@ Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Inval
 	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
 	... 30 more
-2012-09-08 11:29:45,382 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@1af0b4a3]
+2012-09-13 21:24:46,002 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@2d82ef6b]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -123,7 +123,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)
@@ -136,7 +136,7 @@ Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Inval
 	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
 	... 30 more
-2012-09-08 11:29:45,570 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@786c1a82]
+2012-09-13 21:24:46,146 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@281ec58a]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -169,7 +169,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)
@@ -182,7 +182,7 @@ Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Inval
 	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
 	... 30 more
-2012-09-08 11:29:45,663 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@1eb17193]
+2012-09-13 21:24:46,231 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@451c0d60]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -215,7 +215,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)
@@ -228,7 +228,7 @@ Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Inval
 	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
 	... 30 more
-2012-09-08 11:29:45,757 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@2eb0dd16]
+2012-09-13 21:24:46,309 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@74c6eff5]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -261,7 +261,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)
@@ -274,7 +274,7 @@ Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Inval
 	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
 	... 30 more
-2012-09-08 11:29:45,866 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@7b4cc996]
+2012-09-13 21:24:46,418 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@6f579a30]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -307,7 +307,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)
@@ -320,7 +320,7 @@ Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Inval
 	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
 	... 30 more
-2012-09-08 11:29:45,944 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@2cbd69a8]
+2012-09-13 21:24:46,509 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@6986dda3]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -353,7 +353,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)
@@ -366,7 +366,7 @@ Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Inval
 	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
 	... 30 more
-2012-09-08 11:29:46,022 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@65d0d124] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@2bb1d601]
+2012-09-13 21:24:46,585 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@68302e67] to prepare test instance [com.appdunes.shopping.domain.CategoryIntegrationTest@643cb075]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
@@ -399,7 +399,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\shopping\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dbUrl' defined in file [C:\Users\vasu\mysterious-reef-4217\target\classes\META-INF\spring\applicationContext.xml]: Could not resolve placeholder 'DATABASE_URL'
 	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:174)
 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:151)

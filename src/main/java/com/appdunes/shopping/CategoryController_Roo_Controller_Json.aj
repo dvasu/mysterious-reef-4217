@@ -40,9 +40,8 @@ privileged aspect CategoryController_Roo_Controller_Json {
     
     @RequestMapping(method = RequestMethod.POST, headers = "Accept=application/json")
     public ResponseEntity<String> CategoryController.createFromJson(@RequestBody String json) {
-        System.out.println("JSON:" + json);
         Category category = Category.fromJsonToCategory(json);
-        System.out.println("Category:"+category.getName()+" Description:"+category.getDescription());
+        System.out.println("Category JSON:" + json);
         category.persist();
         HttpHeaders headers = new HttpHeaders();
         headers.add("Content-Type", "application/json");
